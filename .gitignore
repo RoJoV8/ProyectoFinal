@@ -1,0 +1,74 @@
+# =========================
+# Visual Studio 2022
+# =========================
+
+# Archivos de usuario
+*.user
+*.userosscache
+*.suo
+*.rsuser
+
+# Carpeta de configuración
+.vs/
+
+# =========================
+# Compilación
+# =========================
+
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Archivos generados
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# =========================
+# NuGet
+# =========================
+
+packages/
+*.nupkg
+*.snupkg
+
+# (Mantén este si usas PackageReference)
+!packages/build/
+
+# =========================
+# Archivos temporales
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# =========================
+# Rider / VSCode (opcional)
+# =========================
+
+.idea/
+.vscode/
+
+# =========================
+# Publicación
+# =========================
+
+publish/
+*.publishsettings
+
+# =========================
+# Otros
+# =========================
+
+*.pidb
+*.svclog
+*.scc
